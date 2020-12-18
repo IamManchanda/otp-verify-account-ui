@@ -1,18 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OTP: Verify Account - UI Design | VanillaJS</title>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Muli:300,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Template | VanillaJS</title>
-  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-  <link rel="icon" href="/favicon.ico" type="image/x-icon" />
-  <link href="https://fonts.googleapis.com/css2?family=Piazzolla&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css" />
-</head>
-
-<body>
-  <script src="js/script.js"></script>
-</body>
-
+  <body>
+    <div class="container">
+      <h2>Verify your Account</h2>
+      <p>
+        We emailed you the Six digit OTP to cool_guy@email.com <br />
+        Enter the One Time Password (OTP) below to confirm your email address.
+      </p>
+      <div class="code-container">
+        <input
+          type="number"
+          class="code"
+          placeholder="0"
+          min="0"
+          max="9"
+          required
+        />
+        <input
+          type="number"
+          class="code"
+          placeholder="0"
+          min="0"
+          max="9"
+          required
+        />
+        <input
+          type="number"
+          class="code"
+          placeholder="0"
+          min="0"
+          max="9"
+          required
+        />
+        <input
+          type="number"
+          class="code"
+          placeholder="0"
+          min="0"
+          max="9"
+          required
+        />
+        <input
+          type="number"
+          class="code"
+          placeholder="0"
+          min="0"
+          max="9"
+          required
+        />
+        <input
+          type="number"
+          class="code"
+          placeholder="0"
+          min="0"
+          max="9"
+          required
+        />
+      </div>
+      <small class="info">
+        This is design only. We didn't actually send you an email as we don't
+        have your email, right?
+      </small>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
 </html>
